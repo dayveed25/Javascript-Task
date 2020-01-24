@@ -1,0 +1,65 @@
+body{
+    background-color: #ffe4c4;
+    /* margin: 200px auto; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+input, select, button {
+    font-family: 'Montserrat';
+}
+
+select, input{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.container{
+    border-radius: 10px;
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+    width: 30%;
+    margin: 200px auto;
+}
+
+.container .header{
+    background-color: darkkhaki;
+}
+
+.container .header h3{
+    padding: 10px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+.container .body{
+    text-align: left;
+    padding-left: 40px;
+}
+
+.container .body input{
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+input:last-of-type{
+    margin-left: 0 !important;
+}
+
+button{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px !important;
+    padding: 10px;
+    background-color: darkturquoise;
+    border-radius: 5px;
+    border: none;
+}
+
+#totalTip{
+    text-align: left;
+    padding-left: 40px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
